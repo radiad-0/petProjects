@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<meta charset="UTF-8">
+	<title>English words</title>
+	<link rel="stylesheet" type="text/css" href="/main.css">
+	<link rel="icon" type="image/png" href="/bulb-icon.png">
+</head>
+<body id="body">
+	<div class="menu">
+		<a class="pages" href="/cgi-bin/learn_words/learn_words.py">learn words</a>
+		<a class="pages" href="/cgi-bin/add_word/add_word_form.py">add word</a>
+	</div>
+
+	<div class="page">
+		<table border="1">
+			<caption>Database of your words</caption>
+			<tr>
+			<th>Id</th>
+			<th>Word</th>
+			<th>Translation</th>
+			<th>Example1</th>
+			<th>Example2</th>
+			<th>Example3</th>
+			<th>Example4</th>
+			<th>Example5</th>
+			</tr>
+			{}
+		</table>
+	</div>
+
+	<div class="page delete-last-entry">
+		<a class="button delete-last-entry" onclick="if(confirm('Last word in the dictionary will be deleted'))window.location='/cgi-bin/dictionary/delete_last_entry.py'">
+			delete last entry
+		</a>
+	</div>
+
+	<div class="page">
+		<table border="1">
+			<caption>Database of your learned words</caption>
+			<tr>
+			<th>Id</th>
+			<th>Word</th>
+			<th>Translation</th>
+			<th>Example1</th>
+			<th>Example2</th>
+			<th>Example3</th>
+			<th>Example4</th>
+			<th>Example5</th>
+			</tr>
+			{}
+		</table>
+	</div>
+
+</body>
+</html>

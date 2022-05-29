@@ -1,0 +1,5 @@
+20
+<h3>crown</h3>
+<a class="button" href="/cgi-bin/learn_words/learn_words_a1.py">show translation</a>
+<a class="button" href="/cgi-bin/learn_words/learn_words_a2.py">show examples</a>
+<a class="button" href="/cgi-bin/learn_words/learn_words.py">skip word</a>

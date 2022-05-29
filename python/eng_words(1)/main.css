@@ -1,0 +1,116 @@
+body{
+    background-color: #01384a;
+    color: #fafafa;
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.menu{
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center 
+}
+
+a.pages{
+	text-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	transition: 0.2s;
+	font-size: medium;
+	background: #002333;
+	padding: 20px 0px;
+	width: 276px;
+	color: #dddddd;
+	user-select: none;
+	border: 1px solid #000;
+	text-decoration: none;
+} 
+a.pages:hover{ background: rgb(232,95,76); }
+a.pages:active{ background: rgb(152,15,0); }
+
+
+
+div.page{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px 0px;
+}
+div.page.info{
+	font-size: medium;
+	height: 50px;
+}
+div.page.delete-last-entry{
+	padding: 25px 0px;
+}
+
+
+a.button{
+	color: #fff;
+	user-select: none;
+	text-align: center;
+	padding:50px 0px;
+	width: 542px;
+	display: inline-block;
+	border-radius: 3px;
+	background: #5326bd;
+	transition: 0.2s;
+	border: 5px solid #01384a;
+	font-size: medium;
+	text-decoration: none;
+}
+a.button:hover {background: #4316ad;}
+a.button:active {background: #33069d;}
+
+a.button.delete-last-entry{
+	padding:15px 0px;
+}
+
+form { 
+	margin: 0 auto; 
+	width: 542px;
+}
+input{
+	background-color: #5326bd;
+	width: 542px;
+	height: 70px;
+	box-sizing: border-box;
+	padding: 12px 20px;
+	border-radius: 4px;
+	border: 1px solid #01384a;
+	font-size: medium;
+	color:#f7c909;
+	margin: 0 auto;
+
+}
+::placeholder {
+	color:#cbd0d5;
+}
+input:focus{
+	outline: none;
+	border: 2px solid #f7c909;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: #01384a;
+  max-width: 70%;
+  width: 70%;
+  border-collapse: collapse;
+  text-align: left;
+  border: 5px #000; 
+}
+th {
+  font-weight: normal;
+  color: #fff;
+  border-bottom: 2px solid #000;
+  padding: 10px 8px;
+}
+td {
+  color: #d0d0ff;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {color: #00f0f0;}

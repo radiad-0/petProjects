@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<meta charset="UTF-8">
+	<title>English words</title>
+	<link rel="stylesheet" type="text/css" href="/main.css">
+	<link rel="icon" type="image/png" href="/bulb-icon.png">
+</head>
+<body>
+	<div class="menu">
+		<a class="pages" href="/cgi-bin/dictionary/dictionary.py">dictionary</a>
+		<a class="pages" href="/cgi-bin/learn_words/learn_words.py">learn words</a>
+	</div>
+
+	<div class="page">
+		<form action="/cgi-bin/add_word/add_word.py" autocomplete="off">
+			<input placeholder="word" name="word">
+			<input placeholder="translation" name="translation">
+			<input placeholder="example1" name="example1">
+			<input placeholder="example2" name="example2">
+			<input placeholder="example3" name="example3">
+			<input placeholder="example4" name="example4">
+			<input placeholder="example5" name="example5">
+			<input placeholder="add" name="add" type="submit" value="add">
+		</form>
+	</div>
+</body>
+</html> 

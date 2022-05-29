@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<meta charset="UTF-8">
+	<title>English words</title>
+	<link rel="stylesheet" type="text/css" href="/main.css">
+	<link rel="icon" type="image/png" href="/bulb-icon.png">
+</head>
+<body >
+	<div class="menu">
+		<a class="pages" href="/cgi-bin/dictionary.py">dictionary</a>
+		<a class="pages" href="http://localhost:8000/add_word.html">add word</a>
+	</div>
+
+	<div class="page info">{}</div>
+	<div class="page">
+		{}
+	</div>
+	<div class="page">
+		{}
+	</div>
+	<div class="page">
+		{}
+	</div>
+
+	<div class="page">
+		<a class="button" href="add_learned_words.py">I know this word</a>
+	</div>
+
+</body>
+</html>
