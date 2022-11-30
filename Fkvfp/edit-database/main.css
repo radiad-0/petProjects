@@ -1,0 +1,112 @@
+body{
+    background-color: #f2d1a8;
+    color: #050505;
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+div{
+	align-items: center;
+	justify-content: center;
+}
+div.page{
+	display: flex;
+	padding: 2px;
+}
+div.menu{
+	display: block;
+	margin-top: 250px;
+}
+div.text{
+	padding: 0 20px;
+}
+
+
+input{
+	width: 318px;
+	padding: 20px 20px;
+	border: 1px solid #f2d1a8;
+	background-color: #0099cd;
+	box-sizing: border-box;
+	font-size: medium;
+	color:#050505;
+}
+::placeholder {
+	color: #cbd0d5;
+}
+input:focus{
+	border: 2px solid #670fb9;
+	outline: 0;
+}
+td>input{
+	width: 100%;
+	border: 0;
+	color: #005277;
+	background: #f7c909;
+}
+td>input:focus{
+	border: 0;
+	color: #050505;
+	background-color: #0099cd;
+}
+td>input::placeholder {
+	color: #0099cd;
+}
+
+p{
+	text-align: center;
+}
+p.title{
+	font-size: x-large;
+	margin-block-end: 12px;
+}
+
+.button{
+	background: #007faa;
+	padding: 20px;
+	color: #fafafa;
+	border: 2px solid #f2d1a8;
+	text-align: center;
+	font-size: medium;
+	width: 276px;
+	margin: 0;
+	user-select: none;
+}
+.button.single{
+	width: 594px;
+	margin: 0 auto;
+}
+.button:hover{
+	color: #005277;
+	background: #f7c909;
+	border: 2px solid #005277;
+}
+.button:active{ background: #ff9700; }
+
+table {
+	font-size: large;
+	background: #f7c909;
+	width: 70%;
+	border-collapse: collapse;
+	text-align: left;
+	border: 5px #005277;
+	margin: 25px auto 10px;
+}
+caption{
+	font-size: x-large;
+}
+th {
+	font-weight: normal;
+	color: #005277;
+	border-bottom: 2px solid #005277;
+	padding: 10px 8px;
+}
+td {
+	color: #005277;
+	padding: 9px 8px;
+	transition: .3s linear;
+}
+.input>td {
+	padding: 0;
+}
+tr:hover td {color: #0099cd;}
