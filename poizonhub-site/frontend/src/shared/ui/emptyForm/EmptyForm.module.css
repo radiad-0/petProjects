@@ -1,0 +1,9 @@
+.formContainer {
+    margin: auto;
+    width: 80%;
+    /*background: linear-gradient(to bottom right, rgb(36, 39, 41), rgb(41, 110, 132));*/
+}
+
+.form {
+    padding: 70px;
+}

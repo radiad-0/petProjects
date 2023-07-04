@@ -1,0 +1,11 @@
+div.fullscreen {
+    height: 100vh;
+}
+
+div.black {
+    background: black;
+}
+
+div.blue {
+    background: #00c7ff;
+}

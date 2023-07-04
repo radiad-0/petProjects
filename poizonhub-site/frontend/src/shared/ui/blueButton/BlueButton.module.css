@@ -1,0 +1,16 @@
+.blueButton {
+    margin: 5px;
+    padding: 20px 60px;
+    background-color: #00c7ff;
+    color: #000000;
+    border: none;
+}
+
+.blueButton:hover {
+    background-color: #3da5e5;
+    cursor: pointer;
+}
+
+.blueButton:active {
+    background-color: #2989d1;
+}

@@ -1,0 +1,194 @@
+#track-div {
+    font-size: 24px;
+    font-family: Gilroy-mix, sans-serif;
+}
+
+#track-div table {
+    margin: 0 10%;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 10%;
+    padding: 65px 30px 30px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.input-wrapper {
+    position: relative;
+    flex: 1;
+    margin-right: 2%;
+}
+
+#track-div input {
+    outline: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 24px;
+    width: calc(100% - 20px);
+    background-color: transparent;
+    z-index: 100;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #eee;
+    z-index: 50;
+}
+
+#track-div button {
+    background-color: #00c7ff;
+    color: #000000;
+    border: none;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    z-index: 100;
+}
+#track-div button.active {
+    background-color: #2989d1;
+}
+
+#track-div button:hover {
+    background-color: #3da5e5;
+}
+
+#track-div button:active {
+    background-color: #2989d1;
+}
+
+#track_info {
+    position: relative;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 20px;
+    z-index: 100;
+}
+
+.tracking-image {
+    height: 60px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.tracking-info-row {
+    padding: 3px;
+    width: 80px;
+}
+
+#track-not-found-div {
+    margin: 0 16%;
+    width: 333px;
+    text-align: center;
+}
+
+#track-not-found-div img {
+    width: 60%;
+    height: auto;
+}
+
+#track-not-found-div p {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .form {
+        margin: auto;
+    }
+
+    #track-not-found-div {
+        margin: auto;
+        width: 40%;
+    }
+
+    #track-div table {
+        margin: auto;
+    }
+
+    .tracking-image {
+        height: 50px;
+    }
+
+    .tracking-info-row {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    #track-div input {
+        font-size: 16px;
+    }
+
+    #track-div button {
+        font-size: 16px;
+    }
+
+    #track-div {
+        font-size: 16px;
+    }
+
+    .tracking-image {
+        height: 40px;
+    }
+
+    .tracking-info-row {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    #track-div input {
+        font-size: 14px;
+    }
+
+    #track-div button {
+        font-size: 14px;
+    }
+
+    #track-div {
+        font-size: 14px;
+    }
+
+    .tracking-image {
+        height: 30px;
+    }
+
+    .tracking-info-row {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #track-div input {
+        font-size: 12px;
+    }
+
+    #track-div button {
+        font-size: 12px;
+    }
+
+    #track-div {
+        font-size: 12px;
+    }
+
+    .tracking-image {
+        height: 25px;
+    }
+
+    .tracking-info-row {
+        width: 40px;
+    }
+}

@@ -1,0 +1,94 @@
+#page1-logo {
+    font-size: 95px;
+    padding-top: 30px;
+}
+
+.links {
+    position: relative;
+    top: 270px;
+    z-index: 100;
+}
+
+.links-container {
+    display: flex;
+}
+
+.link-block {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.link-block.left {
+    margin-left: auto;
+}
+
+.link-block.right {
+    margin-right: auto;
+}
+
+.link {
+    color: inherit;
+    font-size: 20px;
+    font-family: "Gilroy-mix", Arial, sans-serif;
+    padding-bottom: 6px;
+}
+
+.link.img {
+    height: 22px;
+    padding: 5px;
+}
+
+.poizonhub-logo {
+    font-family: 'TildaSans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1199px) {
+    .links {
+        top: 316px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .links {
+        top: 295px;
+    }
+
+    .link {
+        font-size: 14px;
+    }
+
+    .link.img {
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .links {
+        top: 245px;
+    }
+
+    #page1-logo {
+        font-size: 63px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .links {
+        top: 161px;
+    }
+
+    .link {
+        font-size: 11px;
+    }
+}
+
+.page2-boxes {
+    opacity: 0.8;
+}
+
+#instruction {
+    color: rgb(245, 215, 155);
+    text-decoration: underline;
+}

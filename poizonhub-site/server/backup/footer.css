@@ -1,0 +1,107 @@
+#footer {
+    margin-top: 250px;
+}
+
+#footer .column {
+    width: 50%;
+}
+
+#footer .columns {
+    display: flex;
+}
+
+#footer .column-item {
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+    height: 30%;
+}
+
+#footer a.link {
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Ruberoid', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    border-radius: 30px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+#footer .footer-title {
+    color: #141414;
+    font-size: 24px;
+    font-family: 'Ruberoid', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 100;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+#footer a.link.social-link {
+    color: #292929;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Ruberoid', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    border-radius: 0px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+#footer a.link:hover {
+    color: #2ac6d1;
+}
+
+#footer .footer-info {
+    color: #969696;
+    font-size: 8px;
+    font-family: 'Ruberoid', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    opacity: 0.9;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    width: 70%;
+    margin: 50px auto;
+}
+
+#footer .underline {
+    background-color: #2ac6d1;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    width: 132px;
+    height: 1px;
+}
+
+@media screen and (max-width: 850px) {
+    #footer .underline {
+        width: 100px;
+    }
+
+    #footer .column-item {
+        width: 150px;
+        width: 160px;
+    }
+
+    #footer a.link {
+        font-size: 12px;
+    }
+
+    #footer .footer-title {
+        font-size: 18px;
+    }
+
+    #footer a.link.social-link {
+        font-size: 16px;
+    }
+}
